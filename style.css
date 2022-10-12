@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 16px;
+	font-weight: 700;
+	font-family: "Roboto", sans-serif;
+	color: #000000;
+}
+body {
+	background-color: #f5f5f5;
+}
+button {
+	background-color: transparent;
+	border: none;
+}
+button:hover {
+	cursor: pointer;
+}
+input {
+	border: none;
+}
+input:focus {
+	outline: none;
+}
+address {
+	font-style: normal;
+}
+.header,
+.header-menu {
+	border-bottom: 1px solid #dedede;
+	background-color: #ffffff;
+}
+.container {
+	padding: 0 50px;
+}
+.header__inner {
+	padding: 20px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.user-geo {
+	margin-left: 40px;
+	display: flex;
+	align-items: center;
+}
+.user-geo__name {
+	margin-left: 8px;
+}
+.header__left,
+.header__right {
+	display: flex;
+	align-items: center;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+.user-phone {
+	background-color: #efefef;
+	display: flex;
+	align-items: center;
+	padding: 12px 20px;
+	border-radius: 12px;
+}
+.user-phone__content {
+	font-size: 14px;
+	margin-left: 4px;
+}
+
+.header-menu__inner {
+	width: fit-content;
+	padding: 16px 0;
+	margin: 0 auto;
+}
+.header-menu__item {
+	font-weight: 400;
+}
+.header-menu__item + .header-menu__item {
+	margin-left: 32px;
+}
+.catalog-btn__content {
+	margin-left: 8px;
+}
+.header__catalog-btn {
+	display: flex;
+	align-items: center;
+	padding: 15px 20px;
+	border-radius: 12px;
+}
+.header__catalog-btn:hover {
+	background-color: #efefef;
+	cursor: pointer;
+}
+.header-search {
+	background-color: #ffffff;
+	padding: 16px 0;
+}
+.header-search__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.header-search__input {
+	border-radius: 12px;
+	background-color: #f2f2f2;
+	padding: 12px;
+	color: #a6a6a6;
+	padding-left: 40px;
+	width: 500px;
+}
+
+.header-search__input::placeholder {
+	color: #a6a6a6;
+}
+.header-search__wrap {
+	position: relative;
+}
+#search-icon {
+	position: absolute;
+	top: 9px;
+	left: 10px;
+}
+
+.header-search__button {
+	padding: 15px 20px;
+	display: flex;
+	align-items: center;
+	border-radius: 12px;
+	background-color: #efefef;
+}
+.header-search__button > img {
+	margin-right: 8px;
+}
+.header-search__button.yellow {
+	background-color: #f0e3c2;
+}
+.header-search__button + .header-search__button {
+	margin-left: 20px;
+}
+.header-search__buttons {
+	display: flex;
+	align-items: center;
+}
